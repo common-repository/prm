@@ -1,0 +1,121 @@
+.prm-donation-form h4,
+.prm-donation-form h4:first-child {
+	margin: 1em 5px 0;
+}
+.prm-donation-form .description {
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0 5px;
+}
+.prm-donation-form-element .description {
+	margin: 0;
+}
+.prm-donation-form-error {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	border-radius: 4px;
+	color: #a94442;
+	padding: 10px 15px;
+}
+.prm-donation-form-element {
+	box-sizing: border-box;
+	margin: 10px 0;
+	padding: 0 5px 0;
+	-moz-box-sizing: border-box;
+}
+.prm-donation-form-element label {
+	display: block;
+}
+.prm-donation-form-element-error input[type="text"],
+.prm-donation-form-element-error input[type="email"],
+.prm-donation-form-element-error select {
+	border: 1px solid #a94442;
+}
+.prm-donation-form-payment-method.prm-donation-form-element-error {
+	color: #a94442;
+}
+.prm-donation-form-section {
+	margin: 0 -5px;
+}
+.prm-donation-form-name {
+	width: 100%;
+}
+.prm-donation-form-email,
+.prm-donation-form-phone {
+	float: left;
+}
+.prm-donation-form-email {
+	width: 50%;
+}
+.prm-donation-form-phone {
+	width: 35%;
+}
+.prm-donation-form-address {
+	padding-top: 1em;
+}
+.prm-donation-form-address p {
+	margin: 0;
+}
+.prm-donation-form-address,
+.prm-donation-form-payment {
+	clear: left;
+}
+.prm-donation-form-address .prm-donation-form-element {
+	float: left;
+}
+.prm-donation-form-address-postal-code {
+	position: relative;
+	width: 30%;
+}
+.prm-donation-form-address-postal-code .msg {
+	bottom: 0;
+	margin-right: -100%;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+.prm-donation-form-address-postal-code.loading .msg {
+	background: url('../img/load.gif');
+	display: block;
+	margin-right: -16px;
+	height: 16px;
+	text-indent: -99999px;
+	width: 16px;
+}
+.prm-donation-form-address-locality {
+	width: 35%;
+}
+.prm-donation-form-address-dependent-locality {
+	width: 35%;
+}
+.prm-donation-form-address-thoroughfare {
+	clear: left;
+	width: 55%;
+}
+.prm-donation-form-address-premise {
+	width: 15%;
+}
+.prm-donation-form-address-sub-premise {
+	width: 30%;
+}
+.prm-donation-form-address-administrative-area {
+	width: 30%;
+}
+.prm-donation-form-address-administrative-area select {
+	border: 1px solid #e3e3e3;
+	display: block;
+	padding: 8px 0;
+	width: 100%;
+}
+.prm-donation-form-payment {
+	padding-top: 1em;
+}
+.prm-donation-form-subscription-amount input {
+	width: 25%;
+}
+.prm-donation-form-subscription-amount span,
+.prm-donation-form-subscription-amount input {
+	display: inline-block;
+}
+.prm-donation-form-subscription-amount input[type="text"] {
+	width: 50%;
+}
